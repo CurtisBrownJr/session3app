@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Session3app::Application.configure do
+=======
+Session4::Application.configure do
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on

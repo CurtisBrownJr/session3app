@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # == Schema Information
 #
 # Table name: users
@@ -13,4 +14,8 @@ class User < ActiveRecord::Base
   attr_accessible :email, :name
 validates :name, presence: true
 validates :email, presence: true, uniqueness: true
+=======
+class User < ActiveRecord::Base
+  attr_accessible :email, :name
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17
 end

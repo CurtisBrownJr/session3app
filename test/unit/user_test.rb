@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # == Schema Information
 #
 # Table name: users
@@ -9,6 +10,8 @@
 #  updated_at :datetime         not null
 #
 
+=======
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase

@@ -4,4 +4,8 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+<<<<<<< HEAD
 Session3app::Application.load_tasks
+=======
+Session4::Application.load_tasks
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17

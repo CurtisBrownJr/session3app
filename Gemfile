@@ -2,14 +2,23 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+<<<<<<< HEAD
+=======
+gem 'bootstrap-sass', '2.1'
+
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
+<<<<<<< HEAD
  group :development do
  	gem "annotate", '2.5.0'
  end
+=======
+
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

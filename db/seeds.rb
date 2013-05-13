@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+<<<<<<< HEAD
 
 User.create(
 	name: "A. Adams",
@@ -15,3 +16,5 @@ User.create(
 	name: "B. Barker",
 	email: "b@user.com"
 	)
+=======
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17

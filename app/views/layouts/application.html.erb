@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 <head>
   <title>Session3app</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
@@ -15,4 +16,18 @@
 	</div>
 
 </body>
+=======
+	<head>
+	  <title>Session4</title>
+	  <%= stylesheet_link_tag    "application", :media => "all" %>
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
+	</head>
+	<body>
+		<%= render 'layouts/header' %>
+		<div class="container">
+			<%= yield %>
+		</div>
+	</body>
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17
 </html>

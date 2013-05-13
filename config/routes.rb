@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 Session3app::Application.routes.draw do
   get "pages/home"
 
   get "pages/about"
+=======
+Session4::Application.routes.draw do
+  root :to => "pages#home"
+
+  match 'about' => 'pages#about'
+>>>>>>> 736a91406ec2e10d9cc5b02a0487e7dc1e5b8b17
 
   resources :users
 
